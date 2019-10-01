@@ -5,10 +5,10 @@ class ticket
 {
 public:
 	ticket();
-	void setTicketNumbers(vector<int> numbers);
-	vector<int> getTicketNumbers();
+	void setTicketNumbers(vector<ball> numbers);
+	vector<ball> getTicketNumbers();
 
 private:
-	vector<int> numbers;
+	vector<ball> numbers;
 
 };

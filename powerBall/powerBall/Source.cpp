@@ -5,7 +5,51 @@
 using namespace std;
 int main()
 {
-	int numberOfTickets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*int numberOfTickets;
 	cout << "How many powerball tickets would you like to purchase?" << endl;
 	cin >> numberOfTickets;
 	cout << "Would you like to play your own numbers or randomize them?" << endl;
@@ -38,7 +82,7 @@ int main()
 
 	powerball pb;
 	pb.collectTickets(a);
-	pb.setWinningTicket(winner);
+	pb.setWinningTicket(winner);*/
 
 	system("pause");
 	return 0;

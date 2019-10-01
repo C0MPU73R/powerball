@@ -1,0 +1,6 @@
+﻿  powerball.cpp
+  Source.cpp
+  ticket.cpp
+  Generating Code...
+H:\Directory\Main\Computer Programming\Source Control\GitHub\powerball\powerBall\powerBall\Source.cpp(19,29): warning C4018:  '<': signed/unsigned mismatch
+  powerBall.vcxproj -> H:\Directory\Main\Computer Programming\Source Control\GitHub\powerball\powerBall\Debug\powerBall.exe
