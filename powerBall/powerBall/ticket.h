@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include "ball.h"
 using namespace std;
 class ticket
 {

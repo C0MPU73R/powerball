@@ -5,9 +5,10 @@ class ball
 {
 public:
 	ball();
-	void setBallColor();
+	void setBallColor(string color);
 	string getBallColor();
-	void setBallNumber();
+	void setBallNumber(int number);
+	int getBallNumber();
 private:
 	string color;
 	int ballNumber;

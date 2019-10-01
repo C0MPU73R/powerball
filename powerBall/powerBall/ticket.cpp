@@ -5,12 +5,12 @@ ticket::ticket()
 
 }
 
-void ticket::setTicketNumbers(vector<int> numbers)
+void ticket::setTicketNumbers(vector<ball> numbers)
 {
 	this->numbers = numbers;
 }
 
-vector<int> ticket::getTicketNumbers()
+vector<ball> ticket::getTicketNumbers()
 {
 	return this->numbers;
 }
