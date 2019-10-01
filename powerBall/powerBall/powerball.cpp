@@ -1,3 +1,4 @@
+#pragma once
 #include "powerball.h"
 
 powerball::powerball()

@@ -1,16 +1,19 @@
 #include "ticket.h"
 
-ticket::ticket()
+ticket::ticket(int size)
 {
-
+	numbers.resize(size);
 }
 
-void ticket::setTicketNumbers(vector<ball> numbers)
+void ticket::setTicketNumber(vector<ball*> ball_ticket)
 {
-	this->numbers = numbers;
+	for (int index = 0; index < ball_ticket.size(); index++)
+	{
+		numbers[index].push_back(*ball_ticket[index]);
+	}
 }
 
-vector<ball> ticket::getTicketNumbers()
+vector<vector<ball>> ticket::getTicketNumbers()
 {
 	return this->numbers;
 }

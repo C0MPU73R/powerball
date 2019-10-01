@@ -4,10 +4,8 @@ using namespace std;
 class ball
 {
 public:
-	ball();
-	void setBallColor(string color);
+	ball(int number, string color = "white");
 	string getBallColor();
-	void setBallNumber(int number);
 	int getBallNumber();
 private:
 	string color;

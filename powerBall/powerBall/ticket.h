@@ -5,11 +5,11 @@ using namespace std;
 class ticket
 {
 public:
-	ticket();
-	void setTicketNumbers(vector<ball> numbers);
-	vector<ball> getTicketNumbers();
+	ticket(int size);
+	void setTicketNumber(vector<ball*> numbers);
+	vector<vector<ball>> getTicketNumbers();
 
 private:
-	vector<ball> numbers;
+	vector<vector<ball>> numbers;
 
 };
