@@ -3,6 +3,7 @@
 
 powerball::powerball()
 {
+
 }
 
 void powerball::collectTickets(ticket ticket)
@@ -12,5 +13,4 @@ void powerball::collectTickets(ticket ticket)
 
 void powerball::setWinningTicket(ticket winner)
 {
-	this->winner = winner;
 }

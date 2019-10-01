@@ -44,10 +44,9 @@ int main()
 	}
 	//generate ticket(s) 1 ticket consists of 6 balls each with a color and a number
 	ticket myTicket(ball_vector.size());
-	for (int index = 0; index < ball_vector.size(); index++)
-	{
-		myTicket.setTicketNumber(ball_vector[index]); //error here, memory allocation
-	}
+
+
+	
 
 	//start the powerball
 	powerball firstPowerBall;

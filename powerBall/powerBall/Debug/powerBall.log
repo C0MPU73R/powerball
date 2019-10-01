@@ -1,6 +1,2 @@
 ﻿  powerball.cpp
-D:\GitHub\powerBall\powerball\powerBall\powerball.cpp(5,1): error C2512:  'ticket': no appropriate default constructor available
-  ticket.cpp
-D:\GitHub\powerBall\powerball\powerBall\ticket.h(5,7): message :  see declaration of 'ticket'
-  Generating Code...
-D:\GitHub\powerBall\powerball\powerBall\ticket.cpp(10,28): warning C4018:  '<': signed/unsigned mismatch
+  powerBall.vcxproj -> D:\GitHub\powerBall\powerball\Debug\powerBall.exe
