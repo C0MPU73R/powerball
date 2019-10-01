@@ -24,12 +24,18 @@
     <ClCompile Include="powerball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ticket.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="powerball.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
