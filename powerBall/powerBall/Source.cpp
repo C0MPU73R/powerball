@@ -43,15 +43,14 @@ int main()
 		}
 	}
 	//generate ticket(s) 1 ticket consists of 6 balls each with a color and a number
-	ticket myTicket(ball_vector.size());
-
-
-	
-
 	//start the powerball
 	powerball firstPowerBall;
-	firstPowerBall.collectTickets(myTicket); //only 1 ticket in the powerball right now, need to add more and the winning ticket for later
+	for (int index = 0; index < ball_vector.size(); index++)
+	{
+		firstPowerBall.collectTickets(new ticket(ball_vector[index]));
+	}
 
+	
 
 
 
