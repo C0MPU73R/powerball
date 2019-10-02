@@ -1,11 +1,14 @@
 #include "ticket.h"
 
-ticket::ticket(vector<ball*> ball_ticket)
+ticket::ticket(vector<ball*> ball_numbers)
 {
-	
+	for (int index = 0; index < ball_numbers.size(); index++)
+	{
+		numbers.push_back(*ball_numbers[index]);
+	}
 }
 
-vector<vector<ball>> ticket::getTicketNumbers()
+vector<ball> ticket::getTicketNumbers()
 {
 	return this->numbers;
 }

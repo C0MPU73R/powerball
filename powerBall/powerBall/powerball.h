@@ -10,5 +10,6 @@ public:
 	void setWinningTicket(ticket winner);
 private:
 	vector<ticket*> tickets;
+	//ticket winningTicket;
 
 };

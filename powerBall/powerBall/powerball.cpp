@@ -12,4 +12,5 @@ void powerball::collectTickets(vector<ticket*> tickets)
 
 void powerball::setWinningTicket(ticket winner)
 {
+	//this->winningTicket = winner;
 }

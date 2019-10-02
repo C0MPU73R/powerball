@@ -52,6 +52,10 @@ int main()
 	powerball a;
 	a.collectTickets(tickets);
 
+
+
+
+
 	system("pause");
 	return 0;
 }
