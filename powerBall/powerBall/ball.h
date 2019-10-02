@@ -10,5 +10,4 @@ public:
 private:
 	string color;
 	int ballNumber;
-
 };

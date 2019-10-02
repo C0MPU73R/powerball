@@ -3,7 +3,6 @@
 
 powerball::powerball()
 {
-
 }
 
 void powerball::collectTickets(ticket ticket)

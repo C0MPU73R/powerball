@@ -43,86 +43,21 @@ int main()
 		}
 	}
 	//generate ticket(s) 1 ticket consists of 6 balls each with a color and a number
-	//start the powerball
-	powerball firstPowerBall;
-	for (int index = 0; index < ball_vector.size(); index++)
+	vector<vector<ball*>> vtickets;
+	for (int index = 0; index < numTickets; index++)
 	{
-		firstPowerBall.collectTickets(new ticket(ball_vector[index]));
-	}
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*int numberOfTickets;
-	cout << "How many powerball tickets would you like to purchase?" << endl;
-	cin >> numberOfTickets;
-	cout << "Would you like to play your own numbers or randomize them?" << endl;
-	string choice;
-	int number;
-	vector<int> numbers;
-	numbers.resize(6);
-	ticket a;
-	if (choice == "Play my own")
-	{
-		for (int index = 0; index < numbers.size(); index++)
+		for (int index2 = 0; index2 < ball_vector.size(); index2++)
 		{
-			cin >> number;
-			numbers.push_back(number);
+			vtickets.push_back(ball_vector[index2]);
 		}
-
-		a.setTicketNumbers(numbers);
 	}
-	else
+
+	//start powerball
+	powerball a;
+	for (int index = 0; index < vtickets.size(); index++)
 	{
-		for (int index = 0; index < 6; index++)
-		{
-			numbers.push_back(rand() % 39 + 1);
-		}
-		a.setTicketNumbers(numbers);
+		a.collectTickets(vtickets[index]);
 	}
-
-	ticket winner;
-	winner.setTicketNumbers({ 4,5,6,7,8,9,10 });
-
-	powerball pb;
-	pb.collectTickets(a);
-	pb.setWinningTicket(winner);*/
 
 	system("pause");
 	return 0;

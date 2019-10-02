@@ -5,8 +5,7 @@ using namespace std;
 class ticket
 {
 public:
-	ticket(int size);
-	void setTicketNumber(vector<ball*> numbers);
+	ticket(vector<ball*> ball_ticket);
 	vector<vector<ball>> getTicketNumbers();
 
 private:
