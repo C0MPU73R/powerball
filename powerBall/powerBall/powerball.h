@@ -6,7 +6,7 @@ class powerball
 {
 public:
 	powerball();
-	void collectTickets(ticket ticket);
+	void collectTickets(vector<ticket> tickets);
 	void setWinningTicket(ticket winner);
 private:
 	vector<ticket> tickets;

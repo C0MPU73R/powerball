@@ -5,9 +5,9 @@ powerball::powerball()
 {
 }
 
-void powerball::collectTickets(ticket ticket)
+void powerball::collectTickets(vector<ticket> tickets)
 {
-	tickets.push_back(ticket);
+	this->tickets = tickets;
 }
 
 void powerball::setWinningTicket(ticket winner)
