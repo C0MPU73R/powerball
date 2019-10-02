@@ -5,7 +5,7 @@ powerball::powerball()
 {
 }
 
-void powerball::collectTickets(vector<ticket> tickets)
+void powerball::collectTickets(vector<ticket*> tickets)
 {
 	this->tickets = tickets;
 }

@@ -7,7 +7,7 @@ int main()
 {
 	//user
 	vector<vector<ball*>> ball_vector;
-	vector<ticket> tickets;
+	vector<ticket*> tickets;
 	cout << "How many powerball tickets would you like to purchase?: " << endl; //where 1 ticket is 6 balls with a number each
 	int numTickets;
 	cin >> numTickets;
@@ -44,9 +44,10 @@ int main()
 		}
 	}
 	//generate ticket(s) 1 ticket consists of 6 balls each with a color and a number
-	ticket ticket1(ball_vector[0]);
-	tickets.push_back(ticket1);
-
+	for (int index = 0; index < ball_vector.size(); index++)
+	{
+		tickets.push_back(new ticket(ball_vector[index]));
+	}
 	//start the powerball
 	powerball a;
 	a.collectTickets(tickets);
